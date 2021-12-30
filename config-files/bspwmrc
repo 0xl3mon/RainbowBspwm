@@ -6,20 +6,10 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 #-----------------------------
 wmname LG3D &
 picom --backend glx &
-
-<<<<<<< HEAD
 ~/.config/bspwm/scripts/change-wallpaper.sh &
 ~/.config/polybar/launch.sh &
-
 killall mate-notification-daemon; dunst &
-=======
-~/.config/bin/change-wallpaper.sh &
-~/.config/polybar/launch.sh &
-killall mate-notification-daemon; dunst &	    					
-
->>>>>>> cde527692cccdb46b741b2a8fbcffe6a0ef0e637
 mkdir /tmp/flameshot && mkdir /tmp/telegram
-
 flameshot &
 clipmenud &
 vmware-user-suid-wrapper &
