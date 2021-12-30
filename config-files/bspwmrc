@@ -7,7 +7,7 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 wmname LG3D &
 picom --backend glx &
 
-~/.config/bspwm/scripts/change-wallpaper.sh &
+~/.config/bin/change-wallpaper.sh &
 ~/.config/polybar/launch.sh &
 killall mate-notification-daemon; dunst &	    					
 
