@@ -1,6 +1,8 @@
-#!/bin/bash
-vpn=$(/usr/sbin/ifconfig tun0 2>/dev/null | grep 'inet ' | awk '{print $2}')
-
-echo -e "%{F#960909}ﱲ %{F#fff} Disconnected%{u-}"
-#echo -e "%{u#111670}%{+u} %{F#1562bf} %{F#fff}%{F#00ff00}$vpn%{F#fff}%{u-}"
-
+ #!/bin/bash
+ vpn=$(/usr/sbin/ifconfig tun0 2>/dev/null | grep 'inet ' | awk '{print $2}')
+ 
+ if [[ -z "$vpn" ]]; then
+     echo -e "%{F#CCc9c90a}  %{F#fff}Disconnected%{u-}"
+ elif [[ -n "$vpn" ]]; then
+     echo -e "%{F#CC50fa7b}  %{F#fff}Disconnected%{u-}"
+ fi
