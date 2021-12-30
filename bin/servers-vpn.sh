@@ -7,7 +7,7 @@ check_iface=$(ifconfig | grep -P "tun[\d?]")
 countries="$HOME/.config/bin/paises.txt"
 
 # Listando Menu y guardando el input
-option=$(/usr/bin/cat "$countries" |  rofi -i -dmenu -no-config -theme ~/.config/polybar/cuts/scripts/rofi/launcher.rasi -p "Nordvpn")
+option=$(/usr/bin/cat "$countries" |  rofi -i -dmenu -no-config -theme ~/.config/polybar/scripts/rofi/launcher.rasi -p "Nordvpn")
 
 if [[ -z "$check_iface" ]] ; then
   # Loop para comprobar si la option existe
