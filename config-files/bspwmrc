@@ -6,7 +6,7 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 #-----------------------------
 wmname LG3D &
 picom --backend glx &
-~/.config/bspwm/scripts/change-wallpaper.sh &
+feh --bg-center ~/.wallpapers/jockerII.jpg &
 ~/.config/polybar/launch.sh &
 killall mate-notification-daemon; dunst &
 mkdir /tmp/flameshot && mkdir /tmp/telegram
