@@ -157,8 +157,8 @@ super + ctrl + t
 
 # Clipmenu 
 super + shift + p
-	clipmenu -i -fn 'Hack NF:style=Bold:size=9' -nb '#000000' -nf '#ffffff' -sb '#999999' -sf '#00ff15'
-													 #BG			#font		 #Selector		#SelectorFont
+	clipmenu -i -fn 'Hack NF:style=Bold:size=9' -nb '#121111' -nf '#afafaf' -sb '#44475a' -sf '#8be9fd'
+					                                         #BG			#font		 #Selector		#SelectorFont
 # Rofimojy
 super + shift + e
 	~/.config/bin/rofimoji.py
