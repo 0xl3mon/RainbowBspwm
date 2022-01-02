@@ -1,5 +1,5 @@
 # RainbowBspwm
-Dotfiles to mount a Bspwm desktop with one script
+Dotfiles to mount a Bspwm desktop with one script on Debian based distributions **only tested on kali**
 
 ## 💻 Tools Used
 * Windows Manager [BSPWM](https://github.com/baskerville/bspwm) 
