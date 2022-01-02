@@ -228,8 +228,8 @@ main(){
 	dependencias
 	bspwm_building
 	polyb_building
-	fonts_icons
 	polyb_theme
+	fonts_icons
 	aditional_pack
 	customizing_terminal
 	ligthdm_theme
