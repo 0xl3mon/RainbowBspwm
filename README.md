@@ -2,26 +2,24 @@
 Dotfiles to mount a Bspwm desktop with one script on Debian based distributions **only tested on kali**
 
 ## 💻 Tools Used
-* Windows Manager [BSPWM](https://github.com/baskerville/bspwm) 
-* Status Bar [Polybar](https://github.com/polybar/polybar)
-* Command interpreter [Zsh]()
-* Fuzzi Finder Terminal [Fzf](https://github.com/junegunn/fzf)
+* [BSPWM](https://github.com/baskerville/bspwm) -  **Windows Manager**
+* [Polybar](https://github.com/polybar/polybar) - **Status Bar**
+* [Zsh]() - **Command interpreter**
+* [Fzf](https://github.com/junegunn/fzf) - **Fuzzi Finder Terminal**
 
 ### ✍ Fonts and Icons
-* Polybar Font [Iosevka Nerd Fonts](https://www.nerdfonts.com/)
-* Terminal Font [Hack Nerd Fonts](https://www.nerdfonts.com/)
-* Icons [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
+* [Iosevka Nerd Fonts](https://www.nerdfonts.com/) - Polybar Font
+* [Hack Nerd Fonts](https://www.nerdfonts.com/) - Terminal Font
+* [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) - Icons
 
 ### 📋 Clipboard manager 
 * [Clipmenu](https://github.com/cdown/clipmenu)
 * [Clipnotify](https://github.com/cdown/clipnotify)
 
 ### Aditionals Packages
-* Unicode Emojis Terminal [Rofimoji](https://github.com/fdw/rofimoji)
-* Feh - Wallpaper Manager
-* Dunst - Notification daemon
-* Flameshot - Screenshot Manager
-* Firejail  to isolate applications
+* [Rofimoji](https://github.com/fdw/rofimoji) - Unicode Emojis Terminal
+*  Wallpaper Manager - Feh
+* Dunst - Notification daemon, Flameshot - Screenshot Manager, Firejail  to isolate applications
 
 #### ➕ Optional
 * OpenVmTools Desktop - to be able to copy, drag and drop files, from one virtual machine to another virtual machine
