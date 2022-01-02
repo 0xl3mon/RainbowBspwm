@@ -109,6 +109,7 @@ bspwm_building(){
   touch ~/.xinitrc && echo "exec bspwm" >> ~/.xinitrc
 }
 
+
 polyb_building(){
 	clear
 	echo -e "\n${BLUE}[*]${RESET}Compilando e instalando : ${ORANGE}POLYBAR${RESET}"
@@ -129,8 +130,6 @@ polyb_building(){
 	mkdir -p ~/.config/{picom,polybar}
 	curl -s "https://raw.githubusercontent.com/L3monBit/RainbowBspwm/main/config-files/picom.conf" -o ~/.config/picom/picom.conf
 }
-
-
 
 fonts_icons(){
 	clear 
@@ -236,15 +235,10 @@ main(){
 	ligthdm_theme
 }
 
+
 if [[ "$EUID" != "0" ]] ; then
 	main
 else
 	echo -e "${RED}[x]${RESET}Error : ${ORANGE}Do not run the script as root${RESET}"
 	exit 1
 fi
-
-
-
-
-
-
