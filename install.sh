@@ -64,16 +64,16 @@ upgrade(){
 
 
 dependencias() {
-	echo -e "${BLUE}[*]${RESET}Preparando Instalancion de Dependencias"
-	sleep 0.5
+  echo -e "${BLUE}[*]${RESET}Preparando Instalancion de Dependencias"
+  sleep 0.5
 	
-	echo -e "\n$BLUE[*]$RESET Instalando dependencias Necesarias de: ${ORANGE}BSPWM${RESET}"
-	sudo apt install $bspwm_pack -y && echo -e "${GREEN}Operacion realizada con exito${RESET}"
-	sleep 1
+  echo -e "\n$BLUE[*]$RESET Instalando dependencias Necesarias de: ${ORANGE}BSPWM${RESET}"
+  sudo apt install $bspwm_pack -y && echo -e "${GREEN}Operacion realizada con exito${RESET}"
+  sleep 1
   
-	echo -e "\n$BLUE[*]$RESET Instalando dependencias Necesarias de: ${ORANGE}POLYBAR${RESET}"
-	sudo apt install $polyb_pack -y && echo -e "${GREEN}Operacion realizada con exito${RESET}"
-	sleep 1
+  echo -e "\n$BLUE[*]$RESET Instalando dependencias Necesarias de: ${ORANGE}POLYBAR${RESET}"
+  sudo apt install $polyb_pack -y && echo -e "${GREEN}Operacion realizada con exito${RESET}"
+  sleep 1
   
   echo -e "\n$BLUE[*]$RESET Instalando dependencias Necesarias de: ${ORANGE}PICOM${RESET}"
   sudo apt install $picom_pack -y && echo -e "${GREEN}Operacion realizada con exito${RESET}"
