@@ -169,7 +169,7 @@ aditional_pack(){
 	sudo usermod -aG nordvpn $USER
 
 	# Clipmenu Clipboard Manager
-	echo -e "$\n{BLUE}[*]${RESET}Instalando :${ORANGE}Clipmenu - Clipboad Manager${RESET}"
+	echo -e "\n${BLUE}[*]${RESET}Instalando :${ORANGE}Clipmenu - Clipboad Manager${RESET}"
 	# Dependencies for clipmenu
 	sudo apt install  xsel dmenu libxtst-dev -y
 	git clone https://github.com/cdown/clipnotify && cd clipnotify
