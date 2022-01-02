@@ -140,7 +140,6 @@ fonts_icons(){
 	mkdir -p ~/.local/share/fonts && unzip "${temp_folder}/RainbowBspwm/tools/Hack.zip" -d ~/.local/share/fonts
 	wget -q "https://github.com/L3monBit/RainbowBspwm/raw/main/polybar/fonts/feather.ttf" -P ~/.local/share/fonts
 	wget -q "https://github.com/L3monBit/RainbowBspwm/raw/main/polybar/fonts/iosevka_nerd_font.ttf" -P ~/.local/share/fonts
-	wget -q "https://github.com/L3monBit/RainbowBspwm/raw/main/tools/Hack.zip" && unzip Hack.zip -d ~/.local/share/fonts
 	fc-cache -f -v >/dev/null 2>&1
 	rm -rf ~/.config/polybar/fonts
 }
