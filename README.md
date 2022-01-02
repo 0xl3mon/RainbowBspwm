@@ -19,8 +19,7 @@ Dotfiles to mount a Bspwm desktop with one script on Debian based distributions 
 
 ### Aditionals Packages
 * [Rofimoji](https://github.com/fdw/rofimoji) - Unicode Emojis Terminal
-*  Wallpaper Manager - Feh
-* Dunst - Notification daemon, Flameshot - Screenshot Manager, Firejail  to isolate applications
+*  **Feh** - Wallpaper Manager, **Dunst** - Notification daemon, **Flameshot** - Screenshot Manager, **Firejail**  isolate applications
 
 #### ➕ Optional
 * OpenVmTools Desktop - to be able to copy, drag and drop files, from one virtual machine to another virtual machine
