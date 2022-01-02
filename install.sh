@@ -241,7 +241,7 @@ main(){
 if [[ "$EUID" != "0" ]] ; then
 	main
 else
-	echo -e "${RED}[*]${RESET}Error : ${ORANGE}Do not run the script as root${RESET}"
+	echo -e "${RED}[x]${RESET}Error : ${ORANGE}Do not run the script as root${RESET}"
 	exit 1
 fi
 
