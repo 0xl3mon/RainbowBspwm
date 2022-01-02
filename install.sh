@@ -3,7 +3,7 @@
 # The purpose of this script is to automate the installation,configuration and compilation of different tools like
 # bspwm,sxhkd,zsh-plugins,rofi,picom,clipmenu and more.
 
-# Non interactive mode for whipetail
+# Debian Non interactive mode 
 export DEBIAN_FRONTEND=noninteractive
 
 # temporary room for our guests
