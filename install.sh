@@ -29,7 +29,7 @@ picom_pack="libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfixes0-dev libxcb
 bspwm_pack="make gcc git bspwm libxcb-xinerama0-dev libxcb-icccm4-dev libxcb-randr0-dev libxcb-util0-dev libxcb-ewmh-dev libxcb-keysyms1-dev libxcb-shape0-dev"
 
 # Custom Packages
-custom_pack="gnome-terminal open-vm-tools-desktop flameshot rofi feh dunst firejail zsh gdebi p7zip-full tmux cava htop"
+custom_pack="gnome-terminal open-vm-tools-desktop flameshot rofi feh dunst firejail zsh gdebi p7zip-full tmux cava htop git"
 
 trap ctrl_c INT
  
