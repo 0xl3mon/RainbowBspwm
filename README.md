@@ -3,7 +3,10 @@ Dotfiles to mount a Bspwm desktop with one script on Debian based distributions 
 
 ## Installation
 Execute the installer from your terminal in order to avoid even having to manually install git!
-`bash <(curl -s https://raw.githubusercontent.com/L3monBit/RainbowBspwm/main/install.sh)`
+
+```bash
+bash <(curl -s https://raw.githubusercontent.com/L3monBit/RainbowBspwm/main/install.sh)
+```
 
 ### 💻 Tools Used
 * [BSPWM](https://github.com/baskerville/bspwm) -  **Windows Manager**
