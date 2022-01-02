@@ -169,7 +169,7 @@ aditional_pack(){
 	sudo usermod -aG nordvpn $USER
 
 	# Clipmenu Clipboard Manager
-	echo -e "${BLUE}[*]${RESET}Instalando :${ORANGE}Clipmenu - Clipboad Manager${RESET}"
+	echo -e "$\n{BLUE}[*]${RESET}Instalando :${ORANGE}Clipmenu - Clipboad Manager${RESET}"
 	# Dependencies for clipmenu
 	sudo apt install  xsel dmenu libxtst-dev -y
 	git clone https://github.com/cdown/clipnotify && cd clipnotify
@@ -185,14 +185,14 @@ aditional_pack(){
 	python3 -m pip install rofimoji && echo "export PATH=$PATH:$HOME/.local/bin" >> ~/.zshrc
 
 	# Fzf
-	echo -e "${BLUE}[*]${RESET}Instalando :${ORANGE}Fzf ${RESET}"
+	echo -e "\n${BLUE}[*]${RESET}Instalando :${ORANGE}Fzf ${RESET}"
 	git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
 
 	}
 
 
 customizing_terminal(){
-	echo -e "${BLUE}[*]${RESET}Instalando Theme :${ORANGE}Terminal${RESET}"
+	echo -e "\n${BLUE}[*]${RESET}Instalando Theme :${ORANGE}Terminal${RESET}"
 	sudo apt install dconf-cli -y && mkdir -p ~/.config/dconf
 
 	# Lsdeluxe, Bat
