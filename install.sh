@@ -209,7 +209,7 @@ customizing_terminal(){
 
 ligthdm_theme(){
 	clear
-	echo -e "${BLUE}[*]${RESET}Modificando :${ORANGE}Lightdm${RESET}"
+	echo -e "${BLUE}[*]${RESET}Modificando: ${ORANGE}Lightdm${RESET}"
 	
 	if [[ "$current_system" == "Kali" ]]; then
 		mkdir -p ~/.config/lightdm && mv ~/.wallpapers/lightdmII.jpg ~/.config/lightdm
@@ -219,6 +219,7 @@ ligthdm_theme(){
 		mkdir -p ~/.config/lightdm && mv ~/.wallpapers/lightdmII.jpg ~/.config/lightdm
 		sudo ln -s ~/.config/lightdm/lightdmII.jpg /etc/lightdm/wallpaper.jpg -f
 	fi
+  
 
 }
 
