@@ -204,7 +204,6 @@ customizing_terminal(){
 	echo -e "############\n# Alias\n###########" >> ~/.zshrc
 	echo "alias ls='/usr/bin/lsd --group-dirs=first'" >> ~/.zshrc
 	echo "alias cat='/usr/bin/bat'" >> ~/.zshrc
-		
 }
 
 ligthdm_theme(){
