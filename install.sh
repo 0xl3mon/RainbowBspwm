@@ -143,7 +143,7 @@ fonts_icons(){
 	fc-cache -f -v >/dev/null 2>&1
 	rm -rf ~/.config/polybar/fonts
 }
-📝
+
 polyb_theme(){
 	clear
 	echo -e "${BLUE}[*]${RESET}Instalando Theme de : ${ORANGE}POLYBAR${RESET}"
