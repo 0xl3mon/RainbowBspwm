@@ -3,6 +3,7 @@ Dotfiles to mount a Bspwm desktop with one script on Debian based distributions 
 
 ## 💻 Tools Used
 * [BSPWM](https://github.com/baskerville/bspwm) -  **Windows Manager**
+* [SXHKD](https://github.com/baskerville/bspwm) - **sxhkd hotkey daemon**
 * [Polybar](https://github.com/polybar/polybar) - **Status Bar**
 * [Zsh]() - **Command interpreter**
 * [Fzf](https://github.com/junegunn/fzf) - **Fuzzi Finder Terminal**
