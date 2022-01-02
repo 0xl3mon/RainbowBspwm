@@ -2,7 +2,7 @@
 Dotfiles to mount a Bspwm desktop with one script on Debian based distributions **only tested on kali**
 
 ## 🔧 Installation
-Execute the installer from your terminal in order to avoid even having to manually install git!
+Execute the installer from your terminal 
 
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/L3monBit/RainbowBspwm/main/install.sh)
