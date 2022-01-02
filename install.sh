@@ -235,7 +235,6 @@ main(){
 	ligthdm_theme
 }
 
-
 if [[ "$EUID" != "0" ]] ; then
 	main
 else
