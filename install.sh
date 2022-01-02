@@ -109,7 +109,6 @@ bspwm_building(){
   touch ~/.xinitrc && echo "exec bspwm" >> ~/.xinitrc
 }
 
-
 polyb_building(){
 	clear
 	echo -e "\n${BLUE}[*]${RESET}Compilando e instalando : ${ORANGE}POLYBAR${RESET}"
@@ -130,6 +129,8 @@ polyb_building(){
 	mkdir -p ~/.config/{picom,polybar}
 	curl -s "https://raw.githubusercontent.com/L3monBit/RainbowBspwm/main/config-files/picom.conf" -o ~/.config/picom/picom.conf
 }
+
+
 
 fonts_icons(){
 	clear 
