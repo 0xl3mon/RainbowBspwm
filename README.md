@@ -26,7 +26,10 @@ bash <(curl -s https://raw.githubusercontent.com/L3monBit/RainbowBspwm/main/inst
 
 ### Aditionals Packages
 * [Rofimoji](https://github.com/fdw/rofimoji) - Unicode Emojis Terminal
-*  **Feh** - Wallpaper Manager, **Dunst** - Notification daemon, **Flameshot** - Screenshot Manager, **Firejail**  isolate applications
+*  **Feh** - Wallpaper Manager
+*  **Dunst** - Notification daemon
+*  **Flameshot** - Screenshot Manager
+*  **Firejail** - isolate applications
 
 #### ➕ Optional
 * OpenVmTools Desktop - to be able to copy, drag and drop files, from one virtual machine to another virtual machine
@@ -36,4 +39,4 @@ bash <(curl -s https://raw.githubusercontent.com/L3monBit/RainbowBspwm/main/inst
 ![RainbowBspwm](https://github.com/L3monBit/RainbowBspwm/blob/main/Preview/RainBowBspwm.png)
 ![Preview](https://github.com/L3monBit/RainbowBspwm/blob/main/Preview/20220102_142105.gif)
 
-Credits to [Polybar Themes](https://github.com/adi1090x/polybar-themes) of which I have been inspired by some of them
+I been inspired in [Polybar Themes](https://github.com/adi1090x/polybar-themes) 
