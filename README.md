@@ -1,5 +1,5 @@
 # RainbowBspwm
-Dotfiles to mount a Bspwm desktop with one script on Debian based distributions **only tested on kali**
+Script to mount a Bspwm desktop **only tested on kali** but it should work on any distro based on debian
 
 ## 🔧 Installation
 Execute the installer from your terminal 
