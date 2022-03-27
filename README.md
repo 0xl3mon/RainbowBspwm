@@ -5,7 +5,7 @@ Script to mount a Bspwm desktop **only tested on kali** but it should work on an
 Execute the installer from your terminal 
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/L3monBit/RainbowBspwm/main/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/0xl3mon/RainbowBspwm/main/install.sh)
 ```
 
 ### 💻 Tools Used
