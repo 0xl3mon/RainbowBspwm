@@ -87,14 +87,14 @@ dependencias() {
 
 
 bspwm_building(){
-	clear
-	echo -e "${BLUE}[*]${RESET}Compilando e instalando : ${ORANGE}BSPWM , SXHKD${RESET}"
-	sleep 0.5
+  clear
+  echo -e "${BLUE}[*]${RESET}Compilando e instalando : ${ORANGE}BSPWM , SXHKD${RESET}"
+  sleep 0.5
 
-	echo -e "${BLUE}[*]${RESET}Clonando repositorios : ${ORANGE}BSPWM , SXHKD${RESET}"
-	cd $temp_folder
-	git clone https://github.com/baskerville/bspwm.git
-	git clone https://github.com/baskerville/sxhkd.git
+  echo -e "${BLUE}[*]${RESET}Clonando repositorios : ${ORANGE}BSPWM , SXHKD${RESET}"
+  cd $temp_folder
+  git clone https://github.com/baskerville/bspwm.git
+  git clone https://github.com/baskerville/sxhkd.git
 
   cd bspwm && make && sudo make install
   cd ../sxhkd && make && sudo make install
@@ -102,8 +102,8 @@ bspwm_building(){
   clear
   echo -e "\n${BLUE}[*]${RESET}Creando carpeta de configuracion : ${ORANGE}~/.config/bspwm ~/.config/sxhkd${RESET}"
   mkdir -p ~/.config/{bspwm,sxhkd}
-  curl -s "https://raw.githubusercontent.com/L3monBit/RainbowBspwm/main/config-files/bspwmrc" -o ~/.config/bspwm/bspwmrc
-  curl -s "https://raw.githubusercontent.com/L3monBit/RainbowBspwm/main/config-files/sxhkdrc" -o ~/.config/sxhkd/sxhkdrc
+  curl -s "https://raw.githubusercontent.com/0xl3mon/RainbowBspwm/main/config-files/bspwmrc" -o ~/.config/bspwm/bspwmrc
+  curl -s "https://raw.githubusercontent.com/0xl3mon/RainbowBspwm/main/config-files/sxhkdrc" -o ~/.config/sxhkd/sxhkdrc
   chmod u+x ~/.config/bspwm/bspwmrc
 
   touch ~/.xinitrc && echo "exec bspwm" >> ~/.xinitrc
@@ -128,7 +128,7 @@ polyb_building(){
 
 	echo -e "\n${BLUE}[*]${RESET}Creando carpetas de configuracion : ${ORANGE}~/config/polybar ~/.config/picom${RESET}"
 	mkdir -p ~/.config/{picom,polybar}
-	curl -s "https://raw.githubusercontent.com/L3monBit/RainbowBspwm/main/config-files/picom.conf" -o ~/.config/picom/picom.conf
+	curl -s "https://raw.githubusercontent.com/0xl3mon/RainbowBspwm/main/config-files/picom.conf" -o ~/.config/picom/picom.conf
 }
 
 fonts_icons(){
@@ -138,8 +138,8 @@ fonts_icons(){
 
 	echo -e "${BLUE}[*]${RESET}Creando carpetas de configuracion Fonts : ${ORANGE}~/.local/share/fonts${RESET}"
 	mkdir -p ~/.local/share/fonts && unzip "${temp_folder}/RainbowBspwm/tools/Hack.zip" -d ~/.local/share/fonts
-	wget -q "https://github.com/L3monBit/RainbowBspwm/raw/main/polybar/fonts/feather.ttf" -P ~/.local/share/fonts
-	wget -q "https://github.com/L3monBit/RainbowBspwm/raw/main/polybar/fonts/iosevka_nerd_font.ttf" -P ~/.local/share/fonts
+	wget -q "https://github.com/0xl3mon/RainbowBspwm/raw/main/polybar/fonts/feather.ttf" -P ~/.local/share/fonts
+	wget -q "https://github.com/0xl3mon/RainbowBspwm/raw/main/polybar/fonts/iosevka_nerd_font.ttf" -P ~/.local/share/fonts
 	fc-cache -f -v >/dev/null 2>&1
 	rm -rf ~/.config/polybar/fonts
 }
@@ -148,7 +148,7 @@ polyb_theme(){
 	clear
 	echo -e "${BLUE}[*]${RESET}Instalando Theme de : ${ORANGE}POLYBAR${RESET}"
 	cd $temp_folder
-	git clone https://github.com/L3monBit/RainbowBspwm && cd RainbowBspwm
+	git clone https://github.com/0xl3mon/RainbowBspwm && cd RainbowBspwm
 	mv bin ~/.config/
 	mv polybar/* ~/.config/polybar/ && rm -rf ~/.config/polybar/fonts
 	chmod u+x ~/.config/polybar/launch.sh
