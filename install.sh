@@ -87,14 +87,14 @@ dependencias() {
 
 
 bspwm_building(){
-  clear
-  echo -e "${BLUE}[*]${RESET}Compilando e instalando : ${ORANGE}BSPWM , SXHKD${RESET}"
-  sleep 0.5
+	clear
+	echo -e "${BLUE}[*]${RESET}Compilando e instalando : ${ORANGE}BSPWM , SXHKD${RESET}"
+	sleep 0.5
 
-  echo -e "${BLUE}[*]${RESET}Clonando repositorios : ${ORANGE}BSPWM , SXHKD${RESET}"
-  cd $temp_folder
-  git clone https://github.com/baskerville/bspwm.git
-  git clone https://github.com/baskerville/sxhkd.git
+	echo -e "${BLUE}[*]${RESET}Clonando repositorios : ${ORANGE}BSPWM , SXHKD${RESET}"
+	cd $temp_folder
+	git clone https://github.com/baskerville/bspwm.git
+	git clone https://github.com/baskerville/sxhkd.git
 
   cd bspwm && make && sudo make install
   cd ../sxhkd && make && sudo make install
